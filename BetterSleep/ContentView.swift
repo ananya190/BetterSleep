@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var sleepAmount: Double = 8.0
     @State private var wakeUp: Date = defaultWakeUpTime
     @State private var coffeeAmount = 1
-    
+//    TODO: remove alert and calculate button, display time on screen 
     @State private var alertMessage = ""
     @State private var alertTitle = ""
     @State private var showingAlert = false
