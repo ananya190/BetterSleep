@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315679652718213900D7B79B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 315679642718213900D7B79B /* SleepCalculator.mlmodel */; };
 		317C2F0627176AAE000122D8 /* BetterSleepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317C2F0527176AAE000122D8 /* BetterSleepApp.swift */; };
 		317C2F0827176AAE000122D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317C2F0727176AAE000122D8 /* ContentView.swift */; };
 		317C2F0A27176AAF000122D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317C2F0927176AAF000122D8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		315679642718213900D7B79B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		317C2F0227176AAE000122D8 /* BetterSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317C2F0527176AAE000122D8 /* BetterSleepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepApp.swift; sourceTree = "<group>"; };
 		317C2F0727176AAE000122D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		317C2F0427176AAE000122D8 /* BetterSleep */ = {
 			isa = PBXGroup;
 			children = (
+				315679642718213900D7B79B /* SleepCalculator.mlmodel */,
 				317C2F0527176AAE000122D8 /* BetterSleepApp.swift */,
 				317C2F0727176AAE000122D8 /* ContentView.swift */,
 				317C2F0927176AAF000122D8 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315679652718213900D7B79B /* SleepCalculator.mlmodel in Sources */,
 				317C2F0827176AAE000122D8 /* ContentView.swift in Sources */,
 				317C2F0627176AAE000122D8 /* BetterSleepApp.swift in Sources */,
 			);
